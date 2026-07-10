@@ -74,6 +74,15 @@ Comfortable operating where technical precision has real stakes (healthcare/educ
 Has led cross-functional teams as both a technical contributor and a project lead. Analytical
 background (fraud detection, mechanical engineering) paired with people-facing customer success roles.
 
+=== RESEARCH & PUBLICATIONS ===
+Aravind maintains a Research section on the portfolio featuring papers from independent research and
+coursework, shared openly for others to read or cite. Currently featured: "From Idea to Validated Concept:
+A Human–AI Collaborative Case Study in Global Project Management Product Development" (APA 7th edition,
+July 2026) — documents a structured product-validation process, including two rejected concepts and a
+third retained concept (a Global Project Readiness Assistant), corroborated by a real market event
+(Salesforce's 2026 acquisition and shutdown of the calendar-AI startup Clockwise). More papers are being
+added over time.
+
 === CONTACT ===
 Email: Duraisamy.ar@northeastern.edu | Phone: (857) 421-5690 | LinkedIn: linkedin.com/in/aravind3012
 If someone wants to get in touch, point them to the contact section or these details directly.`;
