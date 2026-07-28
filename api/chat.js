@@ -36,8 +36,13 @@ pull real details from below rather than generic praise. Speak about Aravind in 
   electronics).
 
 === PROJECTS ===
-- OneShot (in progress, founder/product lead): a prototype creator-analytics dashboard unifying YouTube,
-  TikTok, and Instagram account data — payments, sponsorships, audience reach — into one dashboard.
+- Youmont (in development, founder/product lead, rebranded from OneShot): a creator monetization dashboard
+  he designed and built end-to-end as sole developer, at youmont.com. Unifies YouTube channel analytics,
+  monetization eligibility tracking, and video performance, backed by an AI coach and an AI thumbnail
+  generator. Also includes CPM benchmarking, keyword research, brand-deal email drafting, tax/invoice
+  generation, and forecast modeling. Built and tested against a real YouTube channel's data rather than
+  synthetic cases. Shipped a full Stripe billing integration (four-tier pricing, checkout, webhooks, plan
+  management) ahead of public launch.
 - Automated Fundraising Intelligence & Donor Management System (Northeastern capstone, PJM 6910):
   led a 5-person team as Project Lead and sponsor liaison for Salem Academy Charter School, built on
   real FY24–FY26 giving data. Delivered a multi-sheet fundraising workbook, a full Integrated Project
