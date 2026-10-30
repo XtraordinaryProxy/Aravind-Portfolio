@@ -36,6 +36,19 @@ pull real details from below rather than generic praise. Speak about Aravind in 
   electronics).
 
 === PROJECTS ===
+- AI-Ping (October 2026, working Windows prototype): an independent product built iteratively with AI coding
+  tools. A draggable floating icon expands into a status panel. Distinct colors and repeated chimes identify
+  AI response endings; GitHub Actions monitoring adds repository/workflow titles and passed/failed/cancelled
+  outcomes. Uses Python/Tkinter, a C# accessibility probe, a Chrome extension and the existing GitHub CLI login.
+  The user confirmed the improved chime was audible; 23 automated checks passed and access to nine owned
+  repositories was verified. Desktop/browser detection is experimental, not proof that a task succeeded.
+  Case study: /case-studies/ai-ping.html. Source is private; do not imply a public download or broad adoption.
+- ZEUS (in development): an independent self-hosted personal intelligence system combining model routing,
+  policy checks, a capability registry, device agents, memory/provenance and web/voice interfaces. Emphasizes
+  approval boundaries, traceable evidence and explicit acceptance planning. Implementation does not imply
+  an accepted end-to-end release; operational and integration validation remain ongoing.
+  Case study: /case-studies/zeus.html. Source and detailed development records are private.
+
 - Youmont (in development, founder/product lead, rebranded from OneShot): a creator monetization dashboard
   he designed and built end-to-end as sole developer, at youmont.com. Unifies YouTube channel analytics,
   monetization eligibility tracking, and video performance, backed by an AI coach and an AI thumbnail

@@ -337,9 +337,11 @@
   .sheet-body ul{display:flex; flex-direction:column; gap:9px; position:relative;}
   .sheet-body li{color:var(--ink-dim); font-size:.92rem; padding-left:16px; position:relative;}
   .sheet-body li::before{content:'—'; position:absolute; left:0; color:var(--ink-faint);}
-  .sheet-links{display:flex; gap:14px; margin-top:18px; position:relative;}
+  .sheet-links{display:flex; flex-wrap:wrap; gap:14px; margin-top:18px; position:relative;}
   .sheet-links a{font-family:var(--font-mono); font-size:.78rem; color:var(--amber); border-bottom:1px solid transparent;}
   .sheet-links a:hover{border-color:var(--amber);}
+
+  @media(max-width:560px){.sheet-head{flex-wrap:wrap}.sheet{padding:22px}.sheet-head h3{overflow-wrap:anywhere}}
 
   /* ---------- Skills ---------- */
   .skills-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:28px;}
@@ -731,10 +733,24 @@
     <div class="wrap">
       <div class="section-head reveal">
         <p class="eyebrow">Selected Work</p>
-        <h2>Projects that shipped, not just planned.</h2>
-        <p>A mix of founder-led product work and graduate capstone deliverables built on real client data.</p>
+        <h2>From small companions to ambitious systems.</h2>
+        <p>Recent product builds, ongoing systems work, and graduate capstone deliverables — with case studies that make the decisions and limits visible.</p>
       </div>
       <div class="project-grid">
+
+        <div class="sheet reveal">
+          <div class="sheet-head"><div class="sheet-title"><span class="sheet-icon" aria-hidden="true">◉</span><h3>AI-Ping — Desktop AI &amp; CI Companion</h3></div><span class="sheet-tag">Working prototype</span></div>
+          <div class="sheet-org">Independent product · Human–AI collaboration · October 2026</div>
+          <div class="sheet-body"><ul><li>Built a compact Windows companion with a floating icon, expandable status panel, distinct chimes and color-coded alerts.</li><li>Connects desktop AI response signals, a Chrome extension and GitHub Actions monitoring; CI alerts identify the repository and workflow.</li><li>Iterated from real feedback on sound clarity, missed completion signals and window behavior. Automated checks cover detection, delivery and UI transitions.</li></ul></div>
+          <div class="sheet-links"><a href="case-studies/ai-ping.html">Read the AI-Ping case study →</a></div>
+        </div>
+        <div class="sheet reveal">
+          <div class="sheet-head"><div class="sheet-title"><span class="sheet-icon" aria-hidden="true">◇</span><h3>ZEUS — Governed Personal Intelligence</h3></div><span class="sheet-tag">In development</span></div>
+          <div class="sheet-org">Independent systems project · Architecture &amp; integration</div>
+          <div class="sheet-body"><ul><li>Developing a self-hosted intelligence system that coordinates model routing, device agents, memory and service integrations.</li><li>Separates planning, policy checks and execution, with approval boundaries and provenance for consequential actions.</li><li>Tracks implementation and acceptance separately through staged delivery and an explicit completion plan; end-to-end release validation remains ongoing.</li></ul></div>
+          <div class="sheet-links"><a href="case-studies/zeus.html">Read the ZEUS case study →</a></div>
+        </div>
+
 
         <div class="sheet reveal">
           <div class="sheet-head">
@@ -955,10 +971,14 @@
     <div class="wrap">
       <div class="section-head reveal">
         <p class="eyebrow">Research &amp; Publications</p>
-        <h2>Papers you're welcome to read, cite, or build on.</h2>
+        <h2>Case studies, research, and lessons from building.</h2>
         <p>Independent research and coursework, shared openly as a small knowledge base rather than locked in a drawer.</p>
       </div>
       <div class="research-grid">
+
+        <div class="paper-card reveal"><div><div class="paper-head"><h3>AI-Ping: Making Finished Work Noticeable</h3><span class="paper-tag">Build Case Study</span></div><div class="paper-meta">Independent Product · October 2026</div><p class="paper-abstract">A small notification companion shaped by real feedback: audible chimes, reliable state transitions, an expandable floating icon and GitHub CI visibility.</p></div><div class="paper-actions"><a href="case-studies/ai-ping.html">Read online →</a></div></div>
+        <div class="paper-card reveal"><div><div class="paper-head"><h3>ZEUS: Governing an Autonomous System</h3><span class="paper-tag">Build Case Study</span></div><div class="paper-meta">Systems Engineering · Ongoing Development</div><p class="paper-abstract">Architecture and delivery decisions for a self-hosted intelligence system: explicit authority, execution boundaries, evidence and acceptance criteria.</p></div><div class="paper-actions"><a href="case-studies/zeus.html">Read online →</a></div></div>
+
 
         <div class="paper-card reveal">
           <div>
